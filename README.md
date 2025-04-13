@@ -1,4 +1,4 @@
-# Hawaii Climate Analysis API
+# Module 10 - sqlalchemy-challenge: Hawaii Climate Analysis API
 
 This project builds a Flask API that provides climate data for Honolulu, Hawaii, using a SQLite database.
 The data includes daily weather measurements from various stations over several years. Users can interact with the API to retrieve precipitation, station data, and temperature observations for specified date ranges.
