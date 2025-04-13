@@ -142,6 +142,7 @@ def temp_stats_range(start, end):
 
     return jsonify({"TMIN": stats[0], "TAVG": round(stats[1], 1), "TMAX": stats[2]})
 
+
 # Run app
 if __name__ == "__main__":
     app.run(debug=True)
