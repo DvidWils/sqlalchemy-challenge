@@ -5,7 +5,7 @@ The data includes daily weather measurements from various stations over several 
 
 ---
 
-## Technologies Used
+## Tools Used
 
 - Python
 - Flask
@@ -16,13 +16,22 @@ The data includes daily weather measurements from various stations over several 
 
 ---
 
-## The API
+## Toaccess the API
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/sqlalchemy-challenge.git
+cd sqlalchemy-challenge
+
+###Run the flask app in git bash
+python app.py
+
+### The API
 
 ### Access the API
 Go to: http://127.0.0.1:5000/
 
-### API Routes
-
+API Routes
 /	API homepage with instructions and available routes
 /api/v1.0/precipitation	JSON dictionary of precipitation data for the last 12 months
 /api/v1.0/stations	JSON list of weather stations
@@ -30,7 +39,7 @@ Go to: http://127.0.0.1:5000/
 /api/v1.0/<start>	Min, Avg, Max temperature from the start date to the most recent date
 /api/v1.0/<start>/<end>	Min, Avg, Max temperature for a custom start–end date range
 
-For the start and end dates, replace <start> and <end> with dates formatted as follows YYYY-MM-DD for example
+For the start and end dates, replace <start> and <end> with dates formatted as follows YYYY-MM-DD.
 Valid dates range from 2010-01-01 to 2017-08-23
 
 Example of API routes with dates
