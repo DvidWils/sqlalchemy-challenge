@@ -16,17 +16,14 @@ The data includes daily weather measurements from various stations over several 
 
 ---
 
-## Toaccess the API
+## To Access the API
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/sqlalchemy-challenge.git
+In git bash - git clone https://github.com/yourusername/sqlalchemy-challenge.git
 cd sqlalchemy-challenge
 
-###Run the flask app in git bash
+### Run the flask app in git bash
 python app.py
-
-### The API
 
 ### Access the API
 Go to: http://127.0.0.1:5000/
