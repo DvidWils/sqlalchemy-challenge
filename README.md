@@ -22,10 +22,10 @@ The data includes daily weather measurements from various stations over several 
 In git bash - git clone https://github.com/yourusername/sqlalchemy-challenge.git
 cd sqlalchemy-challenge
 
-### Run the flask app in git bash
+### 2. Run the flask app in git bash
 python app.py
 
-### Access the API
+### 3. Access the API
 Go to: http://127.0.0.1:5000/
 
 API Routes
